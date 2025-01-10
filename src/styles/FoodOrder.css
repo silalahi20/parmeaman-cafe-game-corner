@@ -1,0 +1,87 @@
+.food-order-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.food-order-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.food-order-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-order-container select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style untuk container tombol */
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Style untuk tombol Order Now */
+.order-button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #4cae4c;
+}
+
+.order-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Style untuk tombol Rekomendasi */
+.recommendation-button {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.recommendation-button:hover {
+    background-color: #286090;
+}
+
+/* Style untuk select container */
+.select-container {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.select-container label {
+    display: block;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    color: #333;
+}

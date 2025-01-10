@@ -1,0 +1,66 @@
+.game-recommendation-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.game-recommendation-container h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game-search-input {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.game-recommendation-button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.game-recommendation-button:hover {
+    background-color: #0056b3;
+}
+
+.recommendation-item {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-left: 5px solid #007BFF;
+}
+
+.recommendation-item p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .game-recommendation-container {
+        width: 95%;
+        padding: 15px;
+    }
+}
